@@ -6,7 +6,8 @@ h3 {
 p.ann {
 	font-size: 12px;
 	padding-left: 20px;
-    margin: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+	color: lightslategrey;
 }
 
 p.kor {
@@ -15,9 +16,25 @@ p.kor {
     margin: 2px 0px 0px 0px;
 }
 
+p.kor > em {
+    font-size: 85%;
+}
+
 blockquote p {
 	margin-bottom: 6px;
 }
+
+p.clause-head {
+	font-size: 60%;
+	letter-spacing: -0.1em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+blockquote p.clause-body {
+	margin-top: 0px;
+}
+
 
 ul, ol {
   margin: 10px 0 20px 0;
@@ -35,7 +52,7 @@ sub {
 	font-size: 60%;
 }
 
-.origin blockquote {
+.compare-source {
 	background: antiquewhite
 }
 
@@ -46,6 +63,7 @@ sub {
 	margin: 5px 0px 5px 0px;
     width: 100%;
     height: auto;
+		margin-top: 20px;
 }
 
 hide {
@@ -67,4 +85,85 @@ tr:hover {background-color:#f5f5f5;}
 
 .gsc-search-button {
 	margin-bottom: 0px;
+}
+
+sup {
+	font-size: 0.1em;
+}
+
+/* subtext */
+
+.subtext {
+	/* font-style: italic; */
+	font-size: small;
+}
+
+.subtext.t0 {
+	color: darkgray;
+}
+
+.subtext.t1 {
+	color: DarkCyan;
+}
+
+.subtext.t2 {
+	color: purple;
+}
+
+.subtext.t0::before {
+	content: "（";
+	color: darkgray;
+}
+
+.subtext.t0::after {
+	content: "）";
+	color: darkgray;
+}
+
+.subtext.t1::before {
+	content: "｛";
+	color: DarkCyan;
+}
+
+.subtext.t1::after {
+	content: "｝";
+	color: DarkCyan;
+}
+
+.subtext.t2::before {
+	content: "〈";
+	color: purple;
+}
+
+.subtext.t2::after {
+	content: "〉";
+	color: purple;
+}
+
+.compare-link {
+	margin-left: 1em;
+}
+
+.sym-ann::before {
+	content: "¶";
+}
+
+.sym-comma::before {
+	content: "，";
+}
+
+.sym-period::before {
+	content: "。";
+}
+
+.sym-open::before {
+	content: "「";
+	font-size: 0.1em;
+	vertical-align: top;
+}
+
+.sym-close::before {
+	content: "」";
+	font-size: 0.1em;
+	vertical-align: bottom;
 }

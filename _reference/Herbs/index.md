@@ -2,6 +2,7 @@
 layout: index
 title: "상한금궤 본초 목록"
 tags: [index, 본초]
+order: 6
 index:
   category: reference
   subject: 본초
@@ -14,4 +15,4 @@ index:
 
 ## 개별 본초
 
-{% include template_index.md %}
+{% include page_list.md category=page.index.category subject=page.index.subject %}

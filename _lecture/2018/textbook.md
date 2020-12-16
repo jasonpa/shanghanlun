@@ -1,9 +1,8 @@
 ---
 layout: handout
-title: "상한론 조문"
+title: "상한금궤 조문"
 desc: "송본상한론〔교재 순서〕"
 tags: 상한론, 원문
-src_path: template_shanghanlun.md
 ---
 
 
@@ -17,7 +16,7 @@ src_path: template_shanghanlun.md
 
 六經病 證治의 大綱
 
-{% assign noo = "007" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-007" %}
 
 * 양병과 음병을 나누어야 하는 이유? 치법을 선택하기 위해
 * 삼양병과 삼음병을 나누는 기준? 발열의 양상
@@ -25,7 +24,7 @@ src_path: template_shanghanlun.md
 * 外臺秘要 卷第一 > 諸論傷寒八家合一十六首
 > 夫病發熱而惡寒 者發於陽；無熱而惡寒者發於陰。發於陽者可攻其外；發於陰者宜溫其內。發表以桂枝；溫裏宜四逆。
 
-{% assign noo = "011" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-011" %}
 
 * 가열진한, 진열가한의 구분
 
@@ -37,7 +36,7 @@ src_path: template_shanghanlun.md
 
 ### 제1절 太陽病의 提綱
 
-{% assign noo = "001" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-001" %}
 
 * 태양병을 대표하는 증상이지만 태양부증, 태양변증 등을 포괄하지 못함
 * 汗法(특히 계지탕증)을 쓸 수 있는 증상을 일반화한 것으로 보아야 할 듯
@@ -58,21 +57,21 @@ src_path: template_shanghanlun.md
 
 ##### (1) 風寒表虛證
 
-{% assign noo = "002" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-002" %}
 
-{% assign noo = "013" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-013" %}
 
-{% assign noo = "012" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-012" %}
 
 * 脈陰陽：ⓐ尺寸 ⓑ浮沈
 
-{% assign noo = "024" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-024" %}
 
-{% assign noo = "057" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-057" %}
 
-{% assign noo = "053" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-053" %}
 
-{% assign noo = "054" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-054" %}
 
 * 先其時發汗 : ⓐ發熱自汗 하기 전 ⓑ막 發熱自汗할 때 ⓒ傳經 하기 전
 
@@ -81,9 +80,9 @@ src_path: template_shanghanlun.md
 
 ##### (2) 桂枝湯을 쓰면 안되는 경우
 
-{% assign noo = "016" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-016" %}
 
-{% assign noo = "017" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-017" %}
 
 
 ##### (3) 風寒表虛의 兼證
@@ -95,7 +94,7 @@ src_path: template_shanghanlun.md
 
 ###### ① 項背强几几를 겸한 증
 
-{% assign noo = "014" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-014" %}
 
 * 几 : "音殊, 几爲短羽鳥不能飛騰, 動先伸引其頭項."(成無己) ; 掔(견)의 通假字, "拘緊不靈活貌"(钱超尘)
 
@@ -104,25 +103,25 @@ src_path: template_shanghanlun.md
 
 ###### ② 喘證을 겸한 증
 
-{% assign noo = "018" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-018" %}
 
-{% assign noo = "043" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-043" %}
 
 <i class="fa fa-bookmark"></i> [계지가후박행자탕]({{site.formulaurl}}/계지가후박행자탕) : 계지탕 + 후박02냥, 행인50매
 
 
 ###### ③ 營氣가 부족하여 身痛을 겸한 증
 
-{% assign noo = "062" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-062" %}
 
 <i class="fa fa-bookmark"></i> [계지가신가탕]({{site.formulaurl}}/계지가신가탕) : 계지탕 + 작약01냥, 생강01냥, 인삼03냥
 
 
 ###### ④ 胸滿을 겸한 증
 
-{% assign noo = "021" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-021" %}
 
-{% assign noo = "022" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-022" %}
 
 <i class="fa fa-bookmark"></i> [계지거작약탕]({{site.formulaurl}}/계지거작약탕)
 
@@ -131,14 +130,14 @@ src_path: template_shanghanlun.md
 
 ###### ⑤ 陽虛漏汗을 겸한 증
 
-{% assign noo = "020" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-020" %}
 
 <i class="fa fa-bookmark"></i> [계지가부자탕]({{site.formulaurl}}/계지가부자탕) : 계지탕 + 부자01매
 
 
 ###### ⑥ 脾虛水停을 겸한 증
 
-{% assign noo = "028" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-028" %}
 
 <i class="fa fa-bookmark"></i> [계지거계가복령백출탕]({{site.formulaurl}}/계지거계가복령백출탕) : 계지탕 + 복령03냥, 백출03냥
 
@@ -161,20 +160,20 @@ src_path: template_shanghanlun.md
 ##### (1) 風寒表實證
 
 
-{% assign noo = "003" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-003" %}
 
 * 脈陰陽：ⓐ尺寸 ⓑ浮沈
 
-{% assign noo = "035" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-035" %}
 
 * ⓐ發熱 惡風  ⓑ頭痛 身疼 腰痛 骨節疼痛  ⓒ無汗而喘
 
-{% assign noo = "046" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-046" %}
 
 * 047 "⒁太陽病 脈浮緊 發熱 身無汗 自衄者愈."
 * 《惠》"太陽病, 脈浮緊, 無汗, 發熱, 身痛, 心煩目瞑, 劇者必衄, 衄者欲解也, 宜麻黃湯."
 
-{% assign noo = "036" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-036" %}
 
 * 242	"⒁病人小便不利 大便乍難乍易 時有微熱 喘冒不能臥者 有燥屎也 宜大承氣湯"
 * 07-12	"肺癰, 喘不得臥, 葶藶大棗瀉肺湯主之."
@@ -190,32 +189,32 @@ src_path: template_shanghanlun.md
 
 ###### ① 表證에 陽虛 증상, 表證에 營血不足을 겸한 경우
 
-{% assign noo = "049" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-049" %}
 
-{% assign noo = "050" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-050" %}
 
-{% assign noo = "088" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-088" %}
 
 
 ###### ② 陰分을 傷하여 內熱한 경우
 
-{% assign noo = "083" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-083" %}
 
-{% assign noo = "084" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-084" %}
 
-{% assign noo = "085" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-085" %}
 
-{% assign noo = "086" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-086" %}
 
 * ⓐ額上陷, 脈急緊 ⓑ額上陷脈急緊
   - 《脈》 "汗出必額陷, 脈上促急而緊" 《玉》 "汗出則額陷, 脈上促急而緊"
 
-{% assign noo = "087" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-087" %}
 
 
 ###### ③ 胃中이 虛冷한 경우
 
-{% assign noo = "089" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-089" %}
 
 
 
@@ -224,17 +223,17 @@ src_path: template_shanghanlun.md
 
 ###### ① 項背强几几를 겸한 증
 
-{% assign noo = "031" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-031" %}
 
 <i class="fa fa-bookmark"></i> [갈근탕]({{site.formulaurl}}/갈근탕) : 계지탕(감량) + 마황(3냥) 갈근(4냥)
 
 ###### ② 嘔逆과 下利를 겸한 증
 
-{% assign noo = "032" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-032" %}
 
 * 逆流挽舟（喻嘉言, 以人蔘敗毒散治痢疾）
 
-{% assign noo = "033" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-033" %}
 
 <i class="fa fa-bookmark"></i> [갈근탕]({{site.formulaurl}}/갈근탕)
 
@@ -252,9 +251,9 @@ src_path: template_shanghanlun.md
 
 ###### ③ 內熱煩躁를 겸한 증
 
-{% assign noo = "038" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-038" %}
 
-{% assign noo = "039" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-039" %}
 
 <i class="fa fa-bookmark"></i> [대청룡탕]({{site.formulaurl}}/대청룡탕)
 
@@ -263,9 +262,9 @@ src_path: template_shanghanlun.md
 
 ###### ④ 水飮咳喘을 겸한 증
 
-{% assign noo = "040" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-040" %}
 
-{% assign noo = "041" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-041" %}
 
 <i class="fa fa-bookmark"></i> [소청룡탕]({{site.formulaurl}}/소청룡탕) : 계지탕(건강代생강, 去대조) + 마황 세신(3냥) 반하(반승) 오미자(반승)
 
@@ -275,32 +274,32 @@ src_path: template_shanghanlun.md
 
 ##### (1) 表鬱不解證
 
-{% assign noo = "023" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-023" %}
 
-{% assign data_src = site.data.shanghanlun-tang %}{% assign bookinit = "唐翼" %}
-{% assign noo = "01-054" %}{% include template_shanghanlun-others.md %}
+{% include clause.md noo="STB-01-054" %}
 
-{% assign data_src = site.data.shanghanlun-chunhe %}{% assign bookinit = "淳和" %}
-{% assign noo = "06-013" %}{% include template_shanghanlun-others.md %}
+{% include clause.md noo="SCB-08-013" %}
+
+
 
 <i class="fa fa-bookmark"></i> [계지마황각반탕]({{site.formulaurl}}/계지마황각반탕)
 
 ##### (2) 表鬱內熱證
 
-{% assign noo = "027" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-027" %}
 
 * 《교재》"太陽病，發熱惡寒，熱多寒少，宜桂枝二越婢一湯。脈微弱者，｛此無陽也｝，不可發汗。"로 보아야 함
 
 <i class="fa fa-bookmark"></i> [계지이월비일탕]({{site.formulaurl}}/계지이월비일탕)
 
-{% assign noo = "048" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-048" %}
 
 * 〔轉屬陽明〕 185 ＂⒀本太陽初得病時 發其汗 汗先出不徹 因轉屬陽明也 ⒁傷寒發熱無汗 嘔不能食 而反汗出濈濈然者 是轉屬陽明也。＂
 * 〔陽氣怫鬱〕 《康平》"設面色緣緣正赤者 陽氣怫鬱不得越 其人短氣但坐 更發汗則愈"
 
 #### 4) 溫病
 
-{% assign noo = "006" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-006" %}
 
 * 《康平》＂⒂太陽病，發熱而渴，不惡寒者，爲溫病。風溫爲病，脈陰陽俱浮，自汗出，身重，多眠睡，鼻息必鼾，語言難出。＂
 
@@ -320,11 +319,11 @@ src_path: template_shanghanlun.md
 
 #### 1) 蓄水證
 
-{% assign noo = "071" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-071" %}
 
-{% assign noo = "072" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-072" %}
 
-{% assign noo = "074" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-074" %}
 
 水逆：渴欲飮水，水入則吐（小便不利）
 
@@ -334,16 +333,15 @@ src_path: template_shanghanlun.md
 
 #### 2) 蓄血證
 
-{% assign noo = "106" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-106" %}
 
-{% assign data_src = site.data.shanghanlun-chunhe %}{% assign bookinit = "淳和" %}
-{% assign noo = "01-026" %}{% include template_shanghanlun-others.md %}
+{% include clause.md noo="SCB-03-026" %}
 
-{% assign noo = "124" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-124" %}
 
-{% assign noo = "125" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-125" %}
 
-{% assign noo = "126" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-126" %}
 
 血證：少腹硬滿，小便自利（，如狂）
 
@@ -358,13 +356,13 @@ src_path: template_shanghanlun.md
 
 ### 제4절 太陽病의 傳變
 
-{% assign noo = "004" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-004" %}
 
-{% assign noo = "005" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-005" %}
 
-{% assign noo = "269" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-269" %}
 
-{% assign noo = "270" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-270" %}
 
 三陰受邪의 증거：ⓐ無大熱，煩躁 ⓑ不能食而嘔
 
@@ -381,21 +379,21 @@ src_path: template_shanghanlun.md
 
 #### 1) 變證의 치료법
 
-{% assign noo = "016" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-016" %}
 
 
 #### 2) 邪熱壅肺證
 
-{% assign noo = "063" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-063" %}
 
-{% assign noo = "162" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-162" %}
 
 <i class="fa fa-bookmark"></i> [마행감석탕]({{site.formulaurl}}/마행감석탕)
 
 
 #### 3) 邪熱下利證
 
-{% assign noo = "034" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-034" %}
 
 <i class="fa fa-bookmark"></i> [갈근황금황련탕]({{site.formulaurl}}/갈근황금황련탕)
 
@@ -408,46 +406,46 @@ src_path: template_shanghanlun.md
 
 ##### (1) 心陽虛 心悸證
 
-{% assign noo = "064" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-064" %}
 
-{% assign noo = "075" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-075" %}
 
 <i class="fa fa-bookmark"></i> [계지감초탕]({{site.formulaurl}}/계지감초탕)
 
 
 ##### (2) 心陽虛 煩躁證
 
-{% assign noo = "118" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-118" %}
 
 <i class="fa fa-bookmark"></i> [계지감초용골모려탕]({{site.formulaurl}}/계지감초용골모려탕)
 
 
 ##### (3) 心陽虛 驚狂證
 
-{% assign noo = "112" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-112" %}
 
 <i class="fa fa-bookmark"></i> [계지거작약가촉칠모려용골구역탕]({{site.formulaurl}}/계지거작약가촉칠모려용골구역탕)
 
 
 ##### (4) 心陽虛 欲作奔豚證
 
-{% assign noo = "065" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-065" %}
 
 <i class="fa fa-bookmark"></i> [영계감조탕]({{site.formulaurl}}/영계감조탕)
 
 
 ##### (5) 心陽虛 奔豚證
 
-{% assign noo = "117" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-117" %}
 
 <i class="fa fa-bookmark"></i> [계지가계탕]({{site.formulaurl}}/계지가계탕)
 
 
 #### 5) 心陰心陽兩虛證
 
-{% assign noo = "177" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-177" %}
 
-{% assign noo = "178" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-178" %}
 
 <i class="fa fa-bookmark"></i> [자감초탕]({{site.formulaurl}}/자감초탕)
 
@@ -467,17 +465,17 @@ src_path: template_shanghanlun.md
 
 ##### (1) 脾虛 水停證
 
-{% assign noo = "067" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-067" %}
 
 <i class="fa fa-bookmark"></i> [영계출감탕]({{site.formulaurl}}/영계출감탕)
 
 ##### (2) 胃虛 水停證
 
-{% assign noo = "073" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-073" %}
 
 * 071 072 073 074 모두 [오령산]({{site.formulaurl}}/오령산) 조문
 
-{% assign noo = "356" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-356" %}
 
 <i class="fa fa-bookmark"></i> [복령감초탕]({{site.formulaurl}}/복령감초탕)
 
@@ -486,18 +484,18 @@ src_path: template_shanghanlun.md
 
 ##### (3) 脾虛 心悸證
 
-{% assign noo = "102" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-102" %}
 
 * [소시소탕]({{site.formulaurl}}/소시호탕)（或胸中煩，或心下悸）의 오기(誤記)?
 
-{% assign noo = "100" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-100" %}
 
 <i class="fa fa-bookmark"></i> [소건중탕]({{site.formulaurl}}/소건중탕)
 
 
 ##### (4) 脾虛 氣滯腹脹證
 
-{% assign noo = "066" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-066" %}
 
 <i class="fa fa-bookmark"></i> [후생반감인탕]({{site.formulaurl}}/후생반감인탕)
 
@@ -507,33 +505,33 @@ src_path: template_shanghanlun.md
 
 ##### (1) 陽虛 煩躁證
 
-{% assign noo = "061" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-061" %}
 
 <i class="fa fa-bookmark"></i> [건강부자탕]({{site.formulaurl}}/건강부자탕)
 
 
 ##### (2) 陽虛 厥逆煩躁證
 
-{% assign noo = "069" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-069" %}
 
 <i class="fa fa-bookmark"></i> [복령사역탕]({{site.formulaurl}}/복령사역탕)
 
 
 #### 8) 火邪傷陰內熱證
 
-{% assign noo = "111" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-111" %}
 
-{% assign noo = "115" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-115" %}
 
-{% assign noo = "116" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-116" %}
 
 
 
 #### 9) 陰傷證과 병이 낫는 기전
 
-{% assign noo = "058" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-058" %}
 
-{% assign noo = "059" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-059" %}
 
 
 
@@ -551,7 +549,7 @@ src_path: template_shanghanlun.md
 
 ##### (1) 陰陽轉化證
 
-{% assign noo = "029" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-029" %}
 
 * [탈수 및 전해질 이상]({{site.sympurl}}/@탈수)?
 * [甘草]({{site.herburl}}/감초) 처방군 _[감초건강탕]({{site.formulaurl}}/감초건강탕)_ _[작약감초탕]({{site.formulaurl}}/작약감초탕)_ _[조위승기탕]({{site.formulaurl}}/조위승기탕)_ _[사역탕]({{site.formulaurl}}/사역탕)_
@@ -563,9 +561,9 @@ src_path: template_shanghanlun.md
 
 ##### (2) 陰陽兩虛證
 
-{% assign noo = "068" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-068" %}
 
-{% assign noo = "060" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-060" %}
 
 <i class="fa fa-bookmark"></i> [작약감초부자탕]({{site.formulaurl}}/작약감초부자탕)
 
@@ -576,17 +574,17 @@ src_path: template_shanghanlun.md
 
 ###### ① 大結胸證
 
-{% assign noo = "135" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-135" %}
 
-{% assign noo = "137" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-137" %}
 
-{% assign noo = "136" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-136" %}
 
-{% assign noo = "131" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-131" %}
 
-{% assign noo = "132" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-132" %}
 
-{% assign noo = "133" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-133" %}
 
 <i class="fa fa-bookmark"></i> [대함흉탕]({{site.formulaurl}}/대함흉탕)
 
@@ -594,19 +592,19 @@ src_path: template_shanghanlun.md
 
 ※ 교재 외 추가조문
 
-{% assign noo = "134" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-134" %}
 
 
 ###### ② 小結胸證
 
-{% assign noo = "138" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-138" %}
 
 <i class="fa fa-bookmark"></i> [소함흉탕]({{site.formulaurl}}/소함흉탕)
 
 
 ##### (2) 寒實結胸
 
-{% assign noo = "141" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-141" %}
 
 <i class="fa fa-bookmark"></i> [삼물백산]({{site.formulaurl}}/삼물백산)
 
@@ -624,9 +622,9 @@ src_path: template_shanghanlun.md
 
 ##### (1) 熱痞
 
-{% assign noo = "154" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-154" %}
 
-{% assign noo = "164" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-164" %}
 
 <i class="fa fa-bookmark"></i> [대황황련사심탕]({{site.formulaurl}}/대황황련사심탕)
 
@@ -634,7 +632,7 @@ src_path: template_shanghanlun.md
 
 ##### (2) 熱痞에 表陽虛를 겸한 증
 
-{% assign noo = "155" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-155" %}
 
 <i class="fa fa-bookmark"></i> [부자사심탕]({{site.formulaurl}}/부자사심탕)
 
@@ -643,7 +641,7 @@ src_path: template_shanghanlun.md
 
 ###### ① 嘔逆하면서 下利하는 痞證
 
-{% assign noo = "149" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-149" %}
 
 흉부증상 감별 증상 및 처방
 * 柴胡湯證(?) _嘔而發熱_ ：소시탕
@@ -656,14 +654,14 @@ src_path: template_shanghanlun.md
 
 ###### ② 水飮과 食滯로 인한 痞證
 
-{% assign noo = "157" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-157" %}
 
 <i class="fa fa-bookmark"></i> [생강사심탕]({{site.formulaurl}}/생강사심탕)
 
 
 ###### ③ 胃虛하여 痞證과 下利가 모두 심한 증
 
-{% assign noo = "158" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-158" %}
 
 * 의안（증례）?
 
@@ -672,27 +670,27 @@ src_path: template_shanghanlun.md
 
 #### 13) 結胸과 臟結 및 痞證
 
-{% assign noo = "128" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-128" %}
 
-{% assign noo = "129" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-129" %}
 
-{% assign noo = "130" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-130" %}
 
-{% assign noo = "167" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-167" %}
 
-{% assign noo = "151" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-151" %}
 
 
 
 #### 14) 上熱下寒證
 
-{% assign noo = "173" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-173" %}
 
 <i class="fa fa-bookmark"></i> [황련탕]({{site.formulaurl}}/황련탕)
 
 #### 15) 胃中不和로 인한 噫氣證
 
-{% assign noo = "161" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-161" %}
 
 <i class="fa fa-bookmark"></i> [선복대자석탕]({{site.formulaurl}}/선복대자탕)
 
@@ -711,7 +709,7 @@ src_path: template_shanghanlun.md
 
 #### 1) 風濕이 肌肉에 유착된 증
 
-{% assign noo = "174" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-174" %}
 
 <i class="fa fa-bookmark"></i> [계지부자탕]({{site.formulaurl}}/계지부자탕)
 
@@ -719,7 +717,7 @@ src_path: template_shanghanlun.md
 
 #### 2) 風濕이 關節에 유착된 증
 
-{% assign noo = "175" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-175" %}
 
 <i class="fa fa-bookmark"></i> [감초부자탕]({{site.formulaurl}}/감초부자탕)
 
@@ -734,33 +732,33 @@ src_path: template_shanghanlun.md
 
 #### 3) 懸飮證
 
-{% assign noo = "152" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-152" %}
 
 <i class="fa fa-bookmark"></i> [십조탕]({{site.formulaurl}}/십조탕)
 
 
 #### 4) 胸膈痰實證
 
-{% assign noo = "166" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-166" %}
 
-{% assign noo = "355" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-355" %}
 
 <i class="fa fa-bookmark"></i> [과체산]({{site.formulaurl}}/과체산)
 
 
 
-### 제7절 表證과 裡證의 치료 순서
+### 제7절 表證과 裏證의 치료 순서
 
 
-{% assign noo = "090" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-090" %}
 
-{% assign noo = "056" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-056" %}
 
-{% assign noo = "091" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-091" %}
 
-{% assign noo = "092" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-092" %}
 
-{% assign noo = "387" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-387" %}
 
 
 * [계지탕]({{site.formulaurl}}/계지탕) ↔ [승기탕]({{site.formulaurl}}/승기탕)
@@ -782,21 +780,21 @@ src_path: template_shanghanlun.md
 ### 제1절 陽明病의 提綱
 
 
-{% assign noo = "180" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-180" %}
 
-{% assign noo = "182" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-182" %}
 
-{% assign noo = "186" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-186" %}
 
 ### 제2절 陽明病의 病因과 病機
 
-{% assign noo = "179" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-179" %}
 
-{% assign noo = "181" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-181" %}
 
-{% assign noo = "183" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-183" %}
 
-{% assign noo = "185" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-185" %}
 
 * 太陽陽明：ⓐ太陽病，亡津液；ⓑ太陽病，汗先出不徹 _脾約？_
 * 正陽陽明：身熱，汗自出，不惡寒，反惡熱 _胃家實_
@@ -808,19 +806,19 @@ src_path: template_shanghanlun.md
 
 #### 1) 胸中煩熱懊憹證
 
-{% assign noo = "076" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-076" %}
 
-{% assign noo = "077" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-077" %}
 
-{% assign noo = "078" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-078" %}
 
-{% assign noo = "375" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-375" %}
 
 虛煩
 * 發汗吐下後；下利後
 * 煩而按之心下濡者
 
-{% assign noo = "228" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-228" %}
 
 <i class="fa fa-bookmark"></i> [치자시탕]({{site.formulaurl}}/치자시탕)
 
@@ -834,25 +832,25 @@ src_path: template_shanghanlun.md
 
 ##### (1) 腹滿을 겸한 증
 
-{% assign noo = "079" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-079" %}
 
 <i class="fa fa-bookmark"></i> [치자후박탕]({{site.formulaurl}}/치자후박탕)
 
 ##### (2) 心下痞塞을 겸한 증
 
-{% assign noo = "393" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-393" %}
 
 <i class="fa fa-bookmark"></i> [지실치자시탕]({{site.formulaurl}}/지실치자시탕)
 
 ##### (3) 中寒을 겸한 증
 
-{% assign noo = "080" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-080" %}
 
 <i class="fa fa-bookmark"></i> [치자건강탕]({{site.formulaurl}}/치자건강탕)
 
 #### 3) 梔子湯을 쓰면 안되는 경우
 
-{% assign noo = "081" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-081" %}
 
 
 <br>
@@ -866,19 +864,19 @@ src_path: template_shanghanlun.md
 
 #### 1) 胃熱證과 胃熱津傷證
 
-{% assign noo = "176" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-176" %}
 
-{% assign noo = "350" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-350" %}
 
-{% assign noo = "219" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-219" %}
 
-{% assign noo = "026" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-026" %}
 
-{% assign noo = "168" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-168" %}
 
-{% assign noo = "169" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-169" %}
 
-{% assign noo = "170" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-170" %}
 
 <i class="fa fa-bookmark"></i> [백호탕]({{site.formulaurl}}/백호탕)
 
@@ -886,7 +884,7 @@ src_path: template_shanghanlun.md
 
 #### 2) 胃熱津傷으로 인한 氣逆證
 
-{% assign noo = "397" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-397" %}
 
 <i class="fa fa-bookmark"></i> [죽엽석고탕]({{site.formulaurl}}/죽엽석고탕)
 
@@ -896,13 +894,13 @@ src_path: template_shanghanlun.md
 
 #### 1) 燥實證
 
-{% assign noo = "248" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-248" %}
 
-{% assign noo = "249" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-249" %}
 
-{% assign noo = "207" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-207" %}
 
-{% assign noo = "105" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-105" %}
 
 <i class="fa fa-bookmark"></i> [조위승기탕]({{site.formulaurl}}/조위승기탕)
 
@@ -917,13 +915,13 @@ src_path: template_shanghanlun.md
 
 #### 2) 痞滿證
 
-{% assign noo = "213" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-213" %}
 
-{% assign noo = "214" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-214" %}
 
-{% assign noo = "250" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-250" %}
 
-{% assign noo = "374" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-374" %}
 
 <i class="fa fa-bookmark"></i> [소승기탕]({{site.formulaurl}}/소승기탕)
 
@@ -932,27 +930,27 @@ src_path: template_shanghanlun.md
 
 #### 3) 痞滿燥實證
 
-{% assign noo = "208" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-208" %}
 
-{% assign noo = "220" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-220" %}
 
-{% assign noo = "239" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-239" %}
 
-{% assign noo = "238" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-238" %}
 
-{% assign noo = "215" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-215" %}
 
-{% assign noo = "241" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-241" %}
 
-{% assign noo = "255" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-255" %}
 
-{% assign noo = "212" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-212" %}
 
-{% assign noo = "252" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-252" %}
 
-{% assign noo = "253" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-253" %}
 
-{% assign noo = "254" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-254" %}
 
 <i class="fa fa-bookmark"></i> [대승기탕]({{site.formulaurl}}/대승기탕)
 
@@ -973,13 +971,13 @@ src_path: template_shanghanlun.md
 #### 4) 下法을 쓰면 안되는 경우
 
 
-{% assign noo = "204" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-204" %}
 
-{% assign noo = "205" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-205" %}
 
-{% assign noo = "206" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-206" %}
 
-{% assign noo = "194" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-194" %}
 
 
 <br>
@@ -990,13 +988,13 @@ src_path: template_shanghanlun.md
 
 ### 제6절 脾約證
 
-{% assign noo = "247" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-247" %}
 
 <i class="fa fa-bookmark"></i> [마자인환]({{site.formulaurl}}/마자인환)
 
 ### 附 : 灌腸法(蜜導法)
 
-{% assign noo = "233" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-233" %}
 
 * 導便法 _[《東醫寶鑑》> 大便](https://mediclassics.kr/books/8/volume/4#content_1311)_
 
@@ -1004,25 +1002,25 @@ src_path: template_shanghanlun.md
 ### 제7절 濕熱發黃
 
 
-#### 1) 濕熱이 裡證을 겸한 發黃
+#### 1) 濕熱이 裏證을 겸한 發黃
 
-{% assign noo = "199" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-199" %}
 
-{% assign noo = "236" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-236" %}
 
-{% assign noo = "260" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-260" %}
 
 <i class="fa fa-bookmark"></i> [인진호탕]({{site.formulaurl}}/인진호탕)
 
 #### 2) 濕熱이 鬱蒸된 發黃
 
-{% assign noo = "261" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-261" %}
 
 <i class="fa fa-bookmark"></i> [치자백피탕]({{site.formulaurl}}/치자백피탕)
 
 #### 3) 濕熱이 表證을 겸한 發黃
 
-{% assign noo = "262" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-262" %}
 
 <i class="fa fa-bookmark"></i> [마황연초적소두탕]({{site.formulaurl}}/마황연초적소두탕)
 
@@ -1033,25 +1031,25 @@ src_path: template_shanghanlun.md
 
 ### 제8절 陽明病의 辨證
 
-{% assign noo = "196" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-196" %}
 
-{% assign noo = "209" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-209" %}
 
-{% assign noo = "210" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-210" %}
 
-{% assign noo = "211" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-211" %}
 
-{% assign noo = "380" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-380" %}
 
-{% assign noo = "202" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-202" %}
 
-{% assign noo = "227" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-227" %}
 
-{% assign noo = "237" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-237" %}
 
 * 畜血 → 喜忘
 
-{% assign noo = "216" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-216" %}
 
 
 1) 脈
@@ -1081,7 +1079,7 @@ src_path: template_shanghanlun.md
 
 ### 제1절 少陽病의 提綱
 
-{% assign noo = "263" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-263" %}
 
 
 ### 제2절 少陽病證
@@ -1089,23 +1087,23 @@ src_path: template_shanghanlun.md
 #### 1) 少陽病의 主證
 
 <div class="compare-set" markdown="1">
-{% assign noo = "096" %}{% include {{page.src_path}} %}
-{% assign noo = "097" %}{% include {{page.src_path}} %}
-{% assign noo = "266" %}{% include {{page.src_path}} %}
-{% assign noo = "267" %}{% include {{page.src_path}} %}
-{% assign noo = "099" %}{% include {{page.src_path}} %}
-{% assign noo = "098" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-096" %}
+{% include clause.md noo="SSB-097" %}
+{% include clause.md noo="SSB-266" %}
+{% include clause.md noo="SSB-267" %}
+{% include clause.md noo="SSB-099" %}
+{% include clause.md noo="SSB-098" %}
 </div>
 
 <div class="compare-set" markdown="1">
-{% assign noo = "229" %}{% include {{page.src_path}} %}
-{% assign noo = "230" %}{% include {{page.src_path}} %}
-{% assign noo = "231" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-229" %}
+{% include clause.md noo="SSB-230" %}
+{% include clause.md noo="SSB-231" %}
 </div>
 
 <div class="compare-set" markdown="1">
-{% assign noo = "379" %}{% include {{page.src_path}} %}
-{% assign noo = "101" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-379" %}
+{% include clause.md noo="SSB-101" %}
 </div>
 
 <i class="fa fa-bookmark"></i> [소시호탕]({{site.formulaurl}}/소시호탕)
@@ -1121,27 +1119,23 @@ src_path: template_shanghanlun.md
 
 ##### (1) 太陽을 겸한 증
 
-{% assign noo = "146" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-146" %}
 
-{% assign noo = "171" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-171" %}
 
 <i class="fa fa-bookmark"></i> [시호계지탕]({{site.formulaurl}}/시호계지탕)
 
 ##### (2) 陽明을 겸한 증
 
-{% assign noo = "104" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-104" %}
 
-{% assign noo = "06-054" %}{% assign bookinit = "全書/法" %}
-{% assign data_src = site.data.shanghanlun-rule %}
-{% include template_shanghanlun-others.md %}
+{% include clause.md noo="SSR-06-054" %}
 
-{% assign noo = "103" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-103" %}
 
-{% assign noo = "06-053" %}{% assign bookinit = "全書/法" %}
-{% assign data_src = site.data.shanghanlun-rule %}
-{% include template_shanghanlun-others.md %}
+{% include clause.md noo="SSR-06-053" %}
 
-{% assign noo = "165" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-165" %}
 
 <i class="fa fa-bookmark"></i> [시호가망초탕]({{site.formulaurl}}/시호가망초탕)
 
@@ -1149,7 +1143,7 @@ src_path: template_shanghanlun.md
 
 ##### (3) 下利를 겸한 증
 
-{% assign noo = "172" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-172" %}
 
 <i class="fa fa-bookmark"></i> [황금탕]({{site.formulaurl}}/황금탕)
 
@@ -1157,49 +1151,45 @@ src_path: template_shanghanlun.md
 
 ##### (4) 水飮을 겸한 증
 
-{% assign noo = "147" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-147" %}
 
 <i class="fa fa-bookmark"></i> [시호계지건강탕]({{site.formulaurl}}/시호계지건강탕)
 
 ##### (5) 煩驚譫語를 겸한 증
 
-{% assign noo = "107" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-107" %}
 
 <i class="fa fa-bookmark"></i> [시호가용골모려탕]({{site.formulaurl}}/시호가용골모려탕)
 
 ### 제3절 少陽病 치료에 쓸 수 없는 치법
 
-{% assign noo = "265" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-265" %}
 
-{% assign noo = "264" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-264" %}
 
 
 
 ### 제4절 少陽病의 辨證
 
 
-{% assign noo = "098" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-098" %}
 
 
 #### 附: 熱入血室
 
-{% assign noo = "144" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-144" %}
 
-{% assign noo = "145" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-145" %}
 
-{% assign noo = "143" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-143" %}
 
-{% assign data_src = site.data.geumgweyolyag %}{% assign bookinit = "金匱" %}
-{% assign noo = "22-001" %}{% include template_shanghanlun-others.md %}
+{% include clause.md noo="GGY-22-001" %}
 
-{% assign data_src = site.data.geumgweyolyag %}{% assign bookinit = "金匱" %}
-{% assign noo = "22-002" %}{% include template_shanghanlun-others.md %}
+{% include clause.md noo="GGY-22-002" %}
 
-{% assign data_src = site.data.geumgweyolyag %}{% assign bookinit = "金匱" %}
-{% assign noo = "22-003" %}{% include template_shanghanlun-others.md %}
+{% include clause.md noo="GGY-22-003" %}
 
-{% assign data_src = site.data.geumgweyolyag %}{% assign bookinit = "金匱" %}
-{% assign noo = "22-004" %}{% include template_shanghanlun-others.md %}
+{% include clause.md noo="GGY-22-004" %}
 
 ☞ [熱入血室]({{site.sympurl}}/열입혈실)
 
@@ -1216,30 +1206,30 @@ src_path: template_shanghanlun.md
 
 ### 제1절 太陰病의 提綱
 
-{% assign noo = "273" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-273" %}
 
 
 ### 제2절 太陰虛寒證
 
-{% assign noo = "277" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-277" %}
 
-{% assign noo = "386" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-386" %}
 
-{% assign noo = "396" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-396" %}
 
 <i class="fa fa-bookmark"></i> [이중환]({{site.formulaurl}}/이중환)
 
 ### 제3절 太陽을 겸한 太陰證
 
-{% assign noo = "163" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-163" %}
 
-{% assign noo = "276" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-276" %}
 
 <i class="fa fa-bookmark"></i> [계지인삼탕]({{site.formulaurl}}/계지인삼탕)
 
 ### 제4절 寒濕으로 인한 發黃
 
-{% assign noo = "259" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-259" %}
 
 
 
@@ -1248,9 +1238,9 @@ src_path: template_shanghanlun.md
 
 #### 1) 太陰腹痛과 陽明腹痛
 
-{% assign noo = "279" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-279" %}
 
-{% assign noo = "280" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-280" %}
 
 <i class="fa fa-bookmark"></i> [계지가작약탕]({{site.formulaurl}}/계지가작약탕)
 
@@ -1258,9 +1248,9 @@ src_path: template_shanghanlun.md
 
 #### 2) 陽明으로 轉屬된 증과 陽氣회복으로 스스로 낫는 증
 
-{% assign noo = "187" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-187" %}
 
-{% assign noo = "278" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-278" %}
 
 
 <br>
@@ -1276,28 +1266,28 @@ src_path: template_shanghanlun.md
 
 ### 제1절 少陰病의 提綱
 
-{% assign noo = "281" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-281" %}
 
 
 ### 제2절 少陰寒化證
 
 #### 1) 陽衰陰盛證
 
-{% assign noo = "388" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-388" %}
 
-{% assign noo = "389" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-389" %}
 
-{% assign noo = "353" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-353" %}
 
-{% assign noo = "225" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-225" %}
 
-{% assign noo = "323" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-323" %}
 
-{% assign noo = "385" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-385" %}
 
-{% assign noo = "325" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-325" %}
 
-{% assign noo = "292" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-292" %}
 
 <i class="fa fa-bookmark"></i> [사역탕]({{site.formulaurl}}/사역탕)
 
@@ -1305,11 +1295,11 @@ src_path: template_shanghanlun.md
 
 #### 2) 陰盛格陽證
 
-{% assign noo = "317" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-317" %}
 
-{% assign noo = "370" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-370" %}
 
-{% assign noo = "390" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-390" %}
 
 <i class="fa fa-bookmark"></i> [통맥사역탕]({{site.formulaurl}}/통맥사역탕)
 
@@ -1324,9 +1314,9 @@ src_path: template_shanghanlun.md
 
 #### 3) 陰盛戴陽證
 
-{% assign noo = "314" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-314" %}
 
-{% assign noo = "315" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-315" %}
 
 <i class="fa fa-bookmark"></i> [백통탕]({{site.formulaurl}}/백통탕)
 
@@ -1334,31 +1324,31 @@ src_path: template_shanghanlun.md
 
 #### 4) 陽虛身痛證
 
-{% assign noo = "305" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-305" %}
 
-{% assign noo = "304" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-304" %}
 
 <i class="fa fa-bookmark"></i> [부자탕]({{site.formulaurl}}/부자탕)
 
 #### 5) 陽虛水泛證
 
-{% assign noo = "082" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-082" %}
 
-{% assign noo = "316" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-316" %}
 
 <i class="fa fa-bookmark"></i> [진무탕]({{site.formulaurl}}/진무탕)
 
 #### 6) 下焦가 收澁하지 못하여 膿血便을 보는 증
 
-{% assign noo = "306" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-306" %}
 
-{% assign noo = "307" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-307" %}
 
 <i class="fa fa-bookmark"></i> [도화탕]({{site.formulaurl}}/도화탕)
 
 #### 7) 下焦가 收澁하지 못하여 滑泄하는 증
 
-{% assign noo = "159" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-159" %}
 
 <i class="fa fa-bookmark"></i> [적석지우여량탕]({{site.formulaurl}}/적석지우여량탕)
 
@@ -1374,7 +1364,7 @@ src_path: template_shanghanlun.md
 
 #### 1) 陰虛火旺證
 
-{% assign noo = "303" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-303" %}
 
 <i class="fa fa-bookmark"></i> [황련아교탕]({{site.formulaurl}}/황련아교탕)
 
@@ -1382,18 +1372,18 @@ src_path: template_shanghanlun.md
 #### 2) 陰虛에 水와 熱이 합쳐진 증
 
 
-{% assign noo = "319" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-319" %}
 
 <i class="fa fa-bookmark"></i> [저령탕]({{site.formulaurl}}/저령탕)
 
 ### 제4절 少陰咽痛證
 
 
-{% assign noo = "310" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-310" %}
 
-{% assign noo = "311" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-311" %}
 
-{% assign noo = "312" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-312" %}
 
 <i class="fa fa-bookmark"></i> [저부탕]({{site.formulaurl}}/저부탕)
 
@@ -1408,9 +1398,9 @@ src_path: template_shanghanlun.md
 
 #### 1) 太陽을 겸한 증
 
-{% assign noo = "301" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-301" %}
 
-{% assign noo = "302" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-302" %}
 
 <i class="fa fa-bookmark"></i> [마황부자세신탕]({{site.formulaurl}}/마황부자세신탕)
 
@@ -1419,75 +1409,63 @@ src_path: template_shanghanlun.md
 
 #### 2) 陽明을 겸한 증
 
-{% assign noo = "321" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-321" %}
 
-{% assign noo = "320" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-320" %}
 
-{% assign noo = "322" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-322" %}
 
 
 
 ### 제6절 少陰病에 쓸 수 없는 치법
 
-{% assign noo = "285" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-285" %}
 
-{% assign noo = "05-004" %}{% assign bookinit = "淳和" %}
-{% assign data_src = site.data.shanghanlun-chunhe %}
-{% include template_shanghanlun-others.md %}
+{% include clause.md noo="SCB-07-004" %}
 
-{% assign noo = "286" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-286" %}
 
 
 ### 제7절 少陰病의 變證
 
 
-{% assign noo = "284" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-284" %}
 
-{% assign noo = "05-003" %}{% assign bookinit = "淳和" %}
-{% assign data_src = site.data.shanghanlun-chunhe %}
-{% include template_shanghanlun-others.md %}
+{% include clause.md noo="SCB-07-003" %}
 
-{% assign noo = "293" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-293" %}
 
-{% assign noo = "05-007" %}{% assign bookinit = "淳和" %}
-{% assign data_src = site.data.shanghanlun-chunhe %}
-{% include template_shanghanlun-others.md %}
+{% include clause.md noo="SCB-07-007" %}
 
-{% assign noo = "294" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-294" %}
 
 
 
 ### 제8절 少陰病의 陰陽消長과 예후
 
-{% assign noo = "287" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-287" %}
 
-{% assign noo = "288" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-288" %}
 
-{% assign noo = "05-005" %}{% assign bookinit = "淳和" %}
-{% assign data_src = site.data.shanghanlun-chunhe %}
-{% include template_shanghanlun-others.md %}
+{% include clause.md noo="SCB-07-005" %}
 
-{% assign noo = "289" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-289" %}
 
-{% assign noo = "11-009" %}{% assign bookinit = "唐翼" %}
-{% assign data_src = site.data.shanghanlun-tang %}
-{% include template_shanghanlun-others.md %}
+{% include clause.md noo="STB-11-009" %}
 
-{% assign noo = "05-006" %}{% assign bookinit = "淳和" %}
-{% assign data_src = site.data.shanghanlun-chunhe %}
-{% include template_shanghanlun-others.md %}
+{% include clause.md noo="SCB-07-006" %}
 
-{% assign noo = "295" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-295" %}
 
-{% assign noo = "296" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-296" %}
 
-{% assign noo = "297" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-297" %}
 
-{% assign noo = "298" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-298" %}
 
-{% assign noo = "299" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-299" %}
 
-{% assign noo = "300" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-300" %}
 
 
 
@@ -1504,9 +1482,9 @@ src_path: template_shanghanlun.md
 
 ### 제1절 厥陰病의 提綱
 
-{% assign noo = "326" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-326" %}
 
-{% assign noo = "337" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-337" %}
 
 
 
@@ -1515,11 +1493,9 @@ src_path: template_shanghanlun.md
 
 #### 1) 蛔厥證
 
-{% assign noo = "338" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-338" %}
 
-{% assign noo = "12-001" %}{% assign bookinit = "全書/法" %}
-{% assign data_src = site.data.shanghanlun-rule %}
-{% include template_shanghanlun-others.md %}
+{% include clause.md noo="SSR-12-001" %}
 
 藏厥 vs 蚘厥
 * 藏厥：躁無暫安時者
@@ -1529,7 +1505,7 @@ src_path: template_shanghanlun.md
 
 #### 2) 寒格吐利證
 
-{% assign noo = "359" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-359" %}
 
 <i class="fa fa-bookmark"></i> [건강황련황금인삼탕]({{site.formulaurl}}/건강황련황금인삼탕)
 
@@ -1537,15 +1513,15 @@ src_path: template_shanghanlun.md
 
 #### 1) 寒氣의 역상으로 인한 乾嘔‧頭痛證
 
-{% assign noo = "378" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-378" %}
 
 <i class="fa fa-bookmark"></i> [오수유탕]({{site.formulaurl}}/오수유탕)
 
 #### 2) 血虛寒厥證
 
-{% assign noo = "351" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-351" %}
 
-{% assign noo = "352" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-352" %}
 
 <i class="fa fa-bookmark"></i> [당귀사역탕]({{site.formulaurl}}/당귀사역탕)
 
@@ -1560,48 +1536,48 @@ src_path: template_shanghanlun.md
 
 ### 제4절 厥陰熱利
 
-{% assign noo = "371" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-371" %}
 
-{% assign noo = "373" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-373" %}
 
 <i class="fa fa-bookmark"></i> [백두옹탕]({{site.formulaurl}}/백두옹탕)
 
 ### 제5절 氣鬱證
 
-{% assign noo = "318" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-318" %}
 
 <i class="fa fa-bookmark"></i> [사역산]({{site.formulaurl}}/사역산)
 
 ### 제6절 厥證에 쓸 수 없는 治法
 
-{% assign noo = "330" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-330" %}
 
-{% assign noo = "335" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-335" %}
 
 
 
 ### 제7절 厥熱勝復證
 
-{% assign noo = "336" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-336" %}
 
-{% assign noo = "341" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-341" %}
 
-{% assign noo = "342" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-342" %}
 
-{% assign noo = "331" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-331" %}
 
-{% assign noo = "334" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-334" %}
 
 
 
 ### 제8절 厥陰病의 死證
 
-{% assign noo = "344" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-344" %}
 
-{% assign noo = "345" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-345" %}
 
-{% assign noo = "346" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-346" %}
 
-{% assign noo = "369" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-369" %}
 
-{% assign noo = "333" %}{% include {{page.src_path}} %}
+{% include clause.md noo="SSB-333" %}

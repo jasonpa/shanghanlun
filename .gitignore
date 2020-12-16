@@ -4,3 +4,5 @@ _site/
 .idea
 .bundle
 Gemfile.lock
+.jekyll-metadata
+__pycache__/

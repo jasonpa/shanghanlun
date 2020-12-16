@@ -1,11 +1,12 @@
 ---
 layout: index
-title: "상한금궤 관련 원문 목록"
+title: "상한금궤 참고 원문 목록"
 tags: [index]
+order: 8
 index:
   category: reference
   subject: 관련원문
 ---
 
 
-{% include template_index.md %}
+{% include page_list.md category=page.index.category subject=page.index.subject %}
